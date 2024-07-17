@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: 'Mega Venusaur',
-            image: 'mega venusaur.png',
+            image: 'venusaur_1.png',
             baseHP: 80,
             type: 'Grass',
             moves: [
@@ -184,7 +184,7 @@ name: 'Charmander',
         },
         {
             name: 'Mega Charizard X',
-            image: 'mega charizard x.png',
+            image: 'charizard_1.png',
             baseHP: 78,
             type: 'Dragon',
             moves: [
@@ -199,7 +199,7 @@ name: 'Charmander',
         },
         {
             name: 'Mega Charizard Y',
-            image: 'mega charizard y.png',
+            image: 'charizard_2.png',
             baseHP: 78,
             type: 'Fire',
             moves: [
@@ -214,7 +214,7 @@ name: 'Charmander',
         },
         {
             name: 'Mega Blastoise',
-            image: 'mega blastoise.png',
+            image: 'blastoise_1.png',
             baseHP: 79,
             type: 'Water',
             moves: [
@@ -259,7 +259,7 @@ name: 'Charmander',
         },   
         {
             name: 'Pikachu',
-            image: 'pikachu2.png',
+            image: 'pikachu_2.png',
             baseHP: 35,
             type: 'Electric',
             moves: [
@@ -274,7 +274,7 @@ name: 'Charmander',
         },
         {
             name: 'Pikachu',
-            image: 'pikachu3.png',
+            image: 'pikachu_3.png',
             baseHP: 35,
             type: 'Electric',
             moves: [
@@ -289,7 +289,7 @@ name: 'Charmander',
         },
         {
             name: 'Pikachu',
-            image: 'pikachu4.png',
+            image: 'pikachu_4.png',
             baseHP: 35,
             type: 'Electric',
             moves: [
@@ -304,7 +304,7 @@ name: 'Charmander',
         },
         {
             name: 'Pikachu',
-            image: 'pikachu5.png',
+            image: 'pikachu_5.png',
             baseHP: 35,
             type: 'Electric',
             moves: [
@@ -319,7 +319,7 @@ name: 'Charmander',
         },
         {
             name: 'Pikachu',
-            image: 'pikachu6.png',
+            image: 'pikachu_6.png',
             baseHP: 35,
             type: 'Electric',
             moves: [
@@ -334,7 +334,127 @@ name: 'Charmander',
         },
         {
             name: 'Pikachu',
-            image: 'pikachu7.png',
+            image: 'pikachu_7.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+	{
+            name: 'Ash Pikachu',
+            image: 'pikachu_8.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: '10,000,000 Bolt Thunderbolt', damage: 195, type: 'Electric', accuracy: 100 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+        {
+            name: 'Pikachu',
+            image: 'pikachu_9.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+        {
+            name: 'Pikachu',
+            image: 'pikachu_10.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+        {
+            name: 'Pikachu',
+            image: 'pikachu_11.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+        {
+            name: 'Pikachu',
+            image: 'pikachu_12.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+        {
+            name: 'Pikachu',
+            image: 'pikachu_13.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+ 	{
+            name: 'Pikachu',
+            image: 'pikachu_14.png',
+            baseHP: 35,
+            type: 'Electric',
+            moves: [
+                { name: 'Thunderbolt', damage: 40, type: 'Electric', accuracy: 100 },
+                { name: 'Quick Attack', damage: 30, type: 'Normal', accuracy: 100 },
+                { name: 'Electro Ball', damage: 20, type: 'Electric', accuracy: 90 },
+                { name: 'Iron Tail', damage: 50, type: 'Steel', accuracy: 75 }
+            ],
+            weakness: 'Ground',
+            resistance: 'Flying',
+            baseStats: { defense: 40, spAtk: 50, spDef: 50, speed: 90 }
+        },
+ 	{
+            name: 'Pikachu',
+            image: 'pikachu_15.png',
             baseHP: 35,
             type: 'Electric',
             moves: [
@@ -435,7 +555,7 @@ name: 'Charmander',
         },
 	{
             name: 'Mega Beedrill',
-            image: 'Mega Beedrill.png',
+            image: 'Beedrill_1.png',
             baseHP: 65,
             type: 'Bug',
             moves: [
@@ -495,7 +615,7 @@ name: 'Charmander',
         },
 	{
             name: 'Mega Pidgeot',
-            image: 'Mega Pidgeot.png',
+            image: 'Pidgeot_1.png',
             baseHP: 83,
             type: 'Flying',
             moves: [
@@ -525,7 +645,7 @@ name: 'Charmander',
         },
 	{
             name: 'Alolan Rattata',
-            image: 'Alolan Rattata.png',
+            image: 'Rattata_1.png',
             baseHP: 30,
             type: 'Dark',
             moves: [
@@ -555,7 +675,7 @@ name: 'Charmander',
         },
 	{
             name: 'Alolan Raticate',
-            image: 'Alolan Raticate.png',
+            image: 'Raticate_1.png',
             baseHP: 75,
             type: 'Dark',
             moves: [
@@ -645,7 +765,7 @@ name: 'Charmander',
         },
 	{
             name: 'Alolan Raichu',
-            image: 'Alolan Raichu.png',
+            image: 'Raichu_1.png',
             baseHP: 60,
             type: 'Psychic',
             moves: [
